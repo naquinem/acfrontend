@@ -31,11 +31,11 @@ export default function DefaultLayout() {
 		return <Navigate to="/" />;
 	}
 
-	// logout user
+	const picture = new URL('../img/cassette.png', import.meta.url)
 	
 	return (
 		<>
-			<div>
+			<div className='w-full h-screen'>
 				<header>
 					<Header />
 				</header>
