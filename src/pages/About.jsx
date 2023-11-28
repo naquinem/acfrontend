@@ -1,10 +1,17 @@
-
+import Cassette from "../Img/cassette.png"
+import Image from "../Img/cassettebg.jpg"
+import Window from "../Img/split.png"
 
 export default function About() {
 	return (
-		<div>
-			<div className="text-6xl font-bold text-blue-500">
+		<div className="relative">
+			<div className=" text-6xl font-bold text-blue-500 opacity-100">
 				About Us
+			</div>
+			<div className="md:flex gap-5 justify-between item-center grid">
+				<img className="w-72 h-72" src={Cassette} />
+				<img className="w-72 h-72 opacity-80" src={Image} />
+				<img className="w-72 h-72" src={Window} />
 			</div>
 			<hr className="bg-slate-400 h-1 w-full my-4" />
 			<div className='font-normal text-gray-500 w-30 py-10 text-3xl'>

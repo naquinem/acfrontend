@@ -28,7 +28,7 @@ export default function ContactUs() {
     }
   return (
     <div className="items-center justify-center py-8 mx-auto md:h-screen lg:py-0">
-      <div className="text-6xl font-bold text-blue-500">
+      <div className="text-5xl font-bold text-blue-500">
 			  Message Us
 		  </div>
 		  <hr className="bg-slate-400 h-1 w-full my-4" />
@@ -95,14 +95,6 @@ export default function ContactUs() {
             Submit
           </button>	
         </form>
-      </div>
-      <div className='my-10'>
-        <h1 className='text-blue-500 text-5xl my-5'>Get in Touch</h1>
-        <ul className='container font-semibold text-gray-600'>
-          <li>+639165639733</li>
-          <li>aircontractor@gmail.com</li>
-          <li>Casili, Mandaue City, Cebu 6014</li>
-        </ul>
       </div>
     </div>
   )
